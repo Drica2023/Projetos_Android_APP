@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "357665642041",
+    "project_id": "olx-clone-cab2c",
+    "storage_bucket": "olx-clone-cab2c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357665642041:android:f9731edf225bcbb3065fe8",
+        "android_client_info": {
+          "package_name": "senai.com.br.olxclone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBk3RmrutS4DASFJFMci5KPt_eafGVYV84"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
