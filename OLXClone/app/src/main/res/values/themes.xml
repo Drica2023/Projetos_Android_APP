@@ -6,4 +6,9 @@
     </style>
 
     <style name="Theme.OLXClone" parent="Base.Theme.OLXClone" />
+    <style name="ProgressBar" parent="Base.Theme.OLXClone">
+        <item name="colorAccent">
+            @color/purple
+        </item>
+    </style>
 </resources>

@@ -21,17 +21,19 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/text_toobar"
-        android:layout_width="107dp"
-        android:layout_height="40dp"
-        android:text="Titulo"
-        android:textAlignment="center"
+        android:id="@+id/text_toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
         android:textColor="@android:color/white"
-        android:textSize="18dp"
+        android:textSize="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Titulo"/>
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
