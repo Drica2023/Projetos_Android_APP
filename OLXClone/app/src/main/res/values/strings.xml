@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">OLX Clone</string>
+    <string name="nome">Nome</string>
 </resources>

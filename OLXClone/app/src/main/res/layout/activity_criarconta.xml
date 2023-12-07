@@ -36,6 +36,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Nome"
+                android:textColor="@color/purple"
                 android:padding="8dp">
 
             </TextView>
@@ -53,6 +54,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Email"
+                android:textColor="@color/purple"
                 android:padding="8dp">
 
             </TextView>
@@ -70,6 +72,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Telefone"
+                android:textColor="@color/purple"
                 android:padding="8dp">
 
             </TextView>
@@ -87,6 +90,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Senha"
+                android:textColor="@color/purple"
                 android:padding="8dp">
 
             </TextView>
@@ -109,6 +113,19 @@
                 android:textAllCaps="true"
                 android:textColor="@color/white"
                 android:textSize="16dp" />
+
+
+            <ProgressBar
+                android:id="@+id/ProgressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:theme="@style/ProgressBar"
+                android:layout_gravity="center"
+
+                />
 
 
         </LinearLayout>

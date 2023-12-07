@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".autenticacao.LoginActivity">
+    tools:context=".autenticacao.RecuperarSenhaActivity">
+
 
     <include
         android:id="@+id/include"
@@ -25,11 +26,28 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
             android:orientation="vertical"
+            android:padding="16dp"
             android:paddingStart="32dp"
             android:paddingEnd="32dp">
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Informe seu e-mail cadastrado e você receberá um link para alterar a senha."
+                android:gravity="center"
+                android:textColor="@color/purple"
+                android:padding="24dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Email"
+                android:textColor="@color/purple">
+
+            </TextView>
 
             <EditText
                 android:layout_width="match_parent"
@@ -37,72 +55,37 @@
                 android:background="@drawable/bg_edt"
                 android:drawableStart="@drawable/ic_email"
                 android:drawablePadding="8dp"
-                android:hint="Login/Email"
+                android:hint="Email"
                 android:padding="16dp" />
 
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="24dp"
-                android:background="@drawable/bg_edt"
-                android:drawableStart="@drawable/ic_key"
-                android:drawablePadding="8dp"
-                android:hint="Senha"
-                android:padding="16dp" />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="24dp"
+                android:layout_marginTop="50dp"
                 android:background="@drawable/bg_btn"
-                android:text="Entrar"
+                android:text="Recuperar Senha"
                 android:textAllCaps="true"
                 android:textColor="@color/white"
                 android:textSize="16dp" />
 
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/text_cadastrar"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="24dp"
-                    android:layout_weight="1"
-                    android:text="Cadastre-se"
-                    android:textColor="@color/purple" />
-
-
-                <TextView
-                    android:id="@+id/text_recuperar_senha"
-                    android:layout_width="270dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="24dp"
-                    android:layout_weight="1"
-                    android:text="esqueceu a senha ?"
-                    android:textAlignment="textEnd"
-
-                    android:textColor="@color/purple" />
-
-            </LinearLayout>
 
             <ProgressBar
                 android:id="@+id/ProgressBar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:theme="@style/ProgressBar"
+                android:layout_gravity="center"
                 android:layout_marginTop="16dp"
+                android:theme="@style/ProgressBar"
                 android:visibility="gone"
-                tools:visibility="visible">
+                tools:visibility="visible"
 
-            </ProgressBar>
+                />
 
 
         </LinearLayout>
 
     </ScrollView>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
