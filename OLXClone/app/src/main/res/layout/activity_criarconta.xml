@@ -34,7 +34,9 @@
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" >
+                android:layout_height="wrap_content"
+                android:text="Nome"
+                android:padding="8dp">
 
             </TextView>
 
@@ -47,31 +49,51 @@
                 android:hint="Nome"
                 android:padding="16dp" />
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:padding="8dp">
+
+            </TextView>
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="50dp"
                 android:background="@drawable/bg_edt"
                 android:drawableStart="@drawable/ic_email"
                 android:drawablePadding="8dp"
                 android:hint="Email"
                 android:padding="16dp" />
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telefone"
+                android:padding="8dp">
+
+            </TextView>
+
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="50dp"
                 android:background="@drawable/bg_edt"
                 android:drawableStart="@drawable/ic_phone"
                 android:drawablePadding="8dp"
                 android:hint="Telefone"
                 android:padding="16dp" />
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Senha"
+                android:padding="8dp">
+
+            </TextView>
+
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="50dp"
                 android:background="@drawable/bg_edt"
                 android:drawableStart="@drawable/ic_key"
                 android:drawablePadding="8dp"
