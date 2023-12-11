@@ -42,6 +42,7 @@
             </TextView>
 
             <EditText
+                android:id="@+id/edt_Nome"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/bg_edt"
@@ -60,6 +61,7 @@
             </TextView>
 
             <EditText
+                android:id="@+id/edt_email"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/bg_edt"
@@ -78,6 +80,7 @@
             </TextView>
 
             <EditText
+                android:id="@+id/edt_telefone"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/bg_edt"
@@ -96,6 +99,7 @@
             </TextView>
 
             <EditText
+                android:id="@+id/edt_senha"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/bg_edt"
@@ -105,9 +109,11 @@
                 android:padding="16dp" />
 
             <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/botaoCriarConta"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="50dp"
+                android:onClick="validaDados"
                 android:background="@drawable/bg_btn"
                 android:text="Criar Conta"
                 android:textAllCaps="true"
